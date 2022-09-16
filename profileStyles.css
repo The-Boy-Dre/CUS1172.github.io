@@ -1,0 +1,12 @@
+
+* {
+  margin: 5px;
+  padding: 0;
+}
+
+.Sections {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  background-color: aquamarine;
+}
