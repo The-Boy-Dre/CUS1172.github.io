@@ -1,12 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto&family=Rubik+Dirt&display=swap');
 
 * {
-  margin: 5px;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.911);
 }
 
 .Sections {
   display: flex;
   flex-direction: row;
-  gap: 0px;
-  background-color: aquamarine;
+  flex-wrap: wrap;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  justify-content: center;
+
+  background-color: rgb(66, 112, 209);
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+  color: white;
+}
+
+#profileInformation {
+  padding: 18px;
+}
+
+#education {
+  padding: 18px;
+}
+
+#experience {
+  padding: 18px;
+
+}
+
+#programming {
+  padding: 18px;
+
+}
+
+#Favorites {
+  padding: 18px;
+
+}
+
+#favorite_website {
+  padding: 18px;
+
+}
+
+
+#menu {
+  padding: 18px;
+
+}
+
+
+#projects {
+  padding: 18px;
+
+}
+
+/*! Profile ================================================================================= */
+.profile {
+  background-color: rgb(44, 17, 44);
+  height: 400px;
+  width: 400px;
+  margin-left: 30px;
+  margin-top: 80px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 20%;
+}
+
+#p_pic {
+  width: 200px;
+  border-radius: 20%;
+}
+
+#personal_info {
+  color: white;
+  white-space: pre-line;   /*"pre-line" preserves newlines */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+/*! education ================================================================================= */
+
+.education {
+  background-color: rgb(44, 17, 44);
+  height: 800px;
+  width: 900px;
+  margin-left: 30px;
+  margin-top: 80px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 20%;
+}
+
+#e_pic {
+  width: 300px;
+  border-radius: 20%;
+  margin-left: 80px;
+}
+
+#edu_summary {
+  color: white;
+  white-space: pre-line;   /*"pre-line" preserves newlines */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
 }
