@@ -17,18 +17,18 @@ body {
   font-weight: bold;
   font-size: 18px;
   justify-content: center;
-
   background-color: rgb(66, 112, 209);
 }
 
 a:link {
-  text-decoration: none;
   color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 a:hover {
   color: white;
 }
+
 
 #profileInformation {
   padding: 18px;
@@ -79,15 +79,35 @@ a:hover {
   margin-top: 80px;
   padding-top: 20px;
   padding-left: 20px;
-  border-radius: 20%;
+  border-radius: 10%;
 }
 
 #p_pic {
   width: 200px;
-  border-radius: 20%;
+  border-radius: 10%;
 }
 
 #personal_info {
+  color: white;
+  white-space: pre-line;   /*"pre-line" preserves newlines */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+
+.interests {
+  background-color: rgb(44, 17, 44);
+  height: 400px;
+  width: 400px;
+  margin-left: 550px;
+  margin-top: -420px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 10%;
+}
+
+#interests_info {
   color: white;
   white-space: pre-line;   /*"pre-line" preserves newlines */
   font-family: 'Roboto', sans-serif;
@@ -104,12 +124,12 @@ a:hover {
   margin-top: 80px;
   padding-top: 20px;
   padding-left: 20px;
-  border-radius: 20%;
+  border-radius: 10%;
 }
 
 #e_pic {
   width: 300px;
-  border-radius: 20%;
+  border-radius: 10%;
   margin-left: 80px;
 }
 
@@ -119,4 +139,54 @@ a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 18px;
+}
+
+/*! work experience ================================================================================= */
+
+.work_exp {
+  background-color: rgb(44, 17, 44);
+  height: 500px;
+  width: 600px;
+  margin-left: 30px;
+  margin-top: 80px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 10%;
+}
+
+#work_info {
+  color: white;
+  white-space: pre-line;   /*"pre-line" preserves newlines */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+#work_bulletins {
+  color: white;
+  white-space: pre-line;   /*"pre-line" preserves newlines */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/*! programming skills ================================================================================= */
+
+.program {
+  background-color: rgb(44, 17, 44);
+  height: 500px;
+  width: 600px;
+  margin-left: 30px;
+  margin-top: 80px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 10%;
+}
+
+#program_info {
+  color: white;
+  white-space: pre-line;   /*"pre-line" preserves newlines */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
 }
