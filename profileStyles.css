@@ -190,3 +190,47 @@ a:hover {
   font-weight: 500;
   font-size: 14px;
 }
+
+/*! Favorite song, film, and tv show ================================================================================= */
+
+.favs1 {
+  background-color: rgb(44, 17, 44);
+  height: 500px;
+  width: 600px;
+  margin-left: 30px;
+  margin-top: 80px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 10%;
+}
+
+.favs2 {
+  background-color: rgb(44, 17, 44);
+  height: 500px;
+  width: 600px;
+  margin-left: 800px;
+  margin-top: -510px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 10%;
+}
+
+.favs3 {
+  background-color: rgb(44, 17, 44);
+  height: 500px;
+  width: 600px;
+  margin-left: 30px;
+  margin-top: 80px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 10%;
+}
+
+
+.favs_info {
+  color: white;
+  white-space: pre-line;   /*"pre-line" preserves newlines */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
