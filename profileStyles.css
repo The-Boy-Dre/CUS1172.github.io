@@ -234,3 +234,29 @@ a:hover {
   font-weight: 500;
   font-size: 14px;
 }
+
+/*! Favorite song, film, and tv show ================================================================================= */
+
+
+
+
+/*! Favorite Web site ================================================================================================ */
+
+.website {
+  background-color: rgb(44, 17, 44);
+  height: 400px;
+  width: 400px;
+  margin-left: 30px;
+  margin-top: 80px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 10%;
+}
+
+#website_info {
+  color: white;
+  white-space: pre-line;   /*"pre-line" preserves newlines */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
